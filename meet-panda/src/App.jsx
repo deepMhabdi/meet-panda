@@ -1,19 +1,26 @@
 import React from "react";
+import Navbar from "./components/Navbar.jsx"
+import LandingPage from "./components/LandingPage.jsx"
+import Benefits from "./components/Benefits.jsx"
+import OneStepAway from "./components/OneStepAway.jsx";
+import AITeammate from "./components/AITeammate.jsx";
+import Professionals from "./components/Professionals.jsx";
+import Testimonials from "./components/TestimonialSection.jsx";
+import FAQ from "./components/FAQ.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600 mb-4">
-        Welcome to Meet Panda 🎉
-      </h1>
-
-      <p className="text-gray-700 text-lg mb-6">
-        Your Tailwind + React setup is working perfectly!
-      </p>
-
-      <button className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-        Get Started
-      </button>
+    <div>
+      <Navbar />
+      <LandingPage />
+      <Benefits />
+      <OneStepAway />
+      <AITeammate />
+      <Professionals />
+      <Testimonials />
+      <FAQ />
+      <Footer/>
     </div>
   );
 }
