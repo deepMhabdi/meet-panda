@@ -23,7 +23,7 @@ const Benefits = () => {
   }, []);
 
   return (
-    <section className="w-full py-20 px-6 font-primary bg-gradient-to-br from-[#f8faff] via-[#ffffff] to-[#f3f5ff]">
+    <section className="w-full py-20 px-6 font-primary bg-linear-to-br from-[#f8faff] via-[#ffffff] to-[#f3f5ff]">
 
       {/* Badge */}
       <div className="flex justify-center mb-4">
@@ -101,7 +101,7 @@ const Benefits = () => {
         </div>
 
         {/* AI SUMMARIES — FULL WIDTH */}
-        <div className="bg-white p-7 rounded-2xl border border-gray-200 transition-all duration-300 hover:-translate-y-1 lg:col-span-2 flex flex-col md:flex-row md:justify-between md:items-center">
+        <div className="bg-white p-7 rounded-2xl border border-gray-200  transition-all duration-300 hover:-translate-y-1 lg:col-span-2 flex flex-col md:flex-row md:justify-between md:items-center">
 
           {/* Text Left */}
           <div className="max-w-lg">
