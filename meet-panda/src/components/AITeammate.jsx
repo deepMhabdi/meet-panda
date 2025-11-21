@@ -27,7 +27,7 @@ const AITeammateSection = () => {
 
       {/* SUBTEXT */}
       <p className="text-gray-600 text-xs md:text-sm max-w-xl leading-relaxed mb-10">
-        MeetPanda ensures you never miss important insights — automatically taking notes,
+        Meetix ensures you never miss important insights — automatically taking notes,
         organizing content, and delivering actionable summaries from every call.
       </p>
 

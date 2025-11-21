@@ -1,102 +1,121 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Benefits = () => {
-  return (
-    <section className="w-full py-10 bg-white px-3 flex flex-col items-center font-primary">
+  const [percent, setPercent] = useState(0);
 
-      {/* TOP BADGE */}
-      <div className="px-3 py-1 mb-2 bg-gray-100 rounded-full border border-gray-300 text-[10px] font-medium text-gray-700">
-        🎯 Features
+  // Animate percentage from 0 → 95
+  useEffect(() => {
+    let start = 0;
+    const end = 95;
+    const duration = 1500; // 1.5s
+    const increment = end / (duration / 20);
+
+    const interval = setInterval(() => {
+      start += increment;
+      if (start >= end) {
+        start = end;
+        clearInterval(interval);
+      }
+      setPercent(Math.floor(start));
+    }, 20);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <section className="w-full py-16 px-4 font-primary bg-[#f9fafc]">
+
+      {/* Badge */}
+      <div className="flex justify-center mb-3">
+        <span className="px-4 py-1 bg-white border rounded-full text-xs text-gray-600 shadow-sm">
+          ✨ Benefits
+        </span>
       </div>
 
-      {/* MAIN HEADING */}
-      <h2 className="text-xl md:text-2xl font-bold text-center mb-1">
-        One <span className="text-[#5748FF]">Product</span> Many Benefits
+      {/* Heading */}
+      <h2 className="text-3xl md:text-5xl font-bold text-center">
+        One <span className="text-[#5748FF]">Product</span> Many{" "}
+        <span className="text-black">Benefits</span>
       </h2>
 
-      {/* SUBTEXT */}
-      <p className="text-gray-600 text-center max-w-lg mb-8 text-[11px] md:text-xs leading-relaxed">
-        Unlock the smarter way to manage every meeting — from automation to intelligent insights.
+      {/* Subtext */}
+      <p className="text-center text-gray-600 mt-3 text-sm md:text-base max-w-3xl mx-auto">
+        Reclaim 3+ hours every week, keep your team aligned with instant summaries,
+        and find any moment across meetings in seconds.
       </p>
 
       {/* GRID */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-w-5xl w-full">
+      <div className="mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
 
-        {/* AUTO JOIN MEETINGS */}
-        <div className="bg-white rounded-lg border border-gray-200 p-3 shadow-sm min-h-[180px]">
-          <h3 className="text-sm font-semibold mb-1">Auto-Join Meetings</h3>
-          <p className="text-gray-600 text-[11px] leading-relaxed">
-            MeetPanda joins your scheduled meetings and captures clean summaries.
+        {/* AUTO JOIN */}
+        <div className="bg-white p-6 rounded-2xl border shadow-sm">
+          <h3 className="font-semibold text-xl">Auto-Join & Record</h3>
+          <p className="text-gray-600 text-md mt-1">
+            Hands-free calendar sync: Meetix joins your calls without downloads or bots.
           </p>
 
-          <div className="mt-3 flex justify-center">
+          <div className="flex justify-center mt-6">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/9751/9751426.png"
-              className="w-12 opacity-90"
-              alt="auto join"
+              src="/assets/benefits.svg"
+              alt="orbit"
+              className="w-36"
             />
           </div>
         </div>
 
-        {/* AI INSIGHTS */}
-        <div className="bg-white rounded-lg border border-gray-200 p-3 shadow-sm min-h-[180px]">
-          <h3 className="text-sm font-semibold mb-1">AI Insights</h3>
-          <p className="text-gray-600 text-[11px] leading-relaxed">
-            Intelligent summaries, highlights, and patterns instantly.
+        {/* TRANSCRIPTION */}
+        <div className="bg-white p-6 rounded-2xl border shadow-sm">
+          <h3 className="font-semibold text-xl">Transcription</h3>
+          <p className="text-gray-600 text-md mt-1">
+            Get accurate, searchable transcripts of all your meetings.
           </p>
 
-          <div className="mt-3 flex justify-center">
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/141/141070.png"
-              className="w-14 opacity-90"
-              alt="insights"
-            />
+          {/* Animated progress bar */}
+          <div className="mt-6">
+            <div className="w-full h-8 bg-gray-200 rounded-full overflow-hidden">
+              <div
+                className="h-full bg-[#5748FF] transition-all duration-300"
+                style={{ width: `${percent}%` }}
+              ></div>
+            </div>
+
+            <p className="text-[#5748FF] text-4xl font-bold mt-3 text-center">
+              {percent}%
+            </p>
           </div>
         </div>
 
-        {/* SEARCH MEETING TRANSCRIPTS */}
-        <div className="bg-white rounded-lg border border-gray-200 p-3 shadow-sm min-h-[180px]">
-          <h3 className="text-sm font-semibold mb-1">Search Meeting Transcripts</h3>
-          <p className="text-gray-600 text-[11px] leading-relaxed">
-            Quickly find keywords, summaries or decisions.
+        {/* SEARCH */}
+        <div className="bg-white p-6 rounded-2xl border shadow-sm">
+          <h3 className="font-semibold text-xl">Search Across Meetings</h3>
+          <p className="text-gray-600 text-md mt-1">
+            Quickly find key moments, topics, or decisions from any past meeting.
           </p>
 
-          <div className="mt-3 bg-gray-100 rounded-md p-2 flex justify-between items-center">
-            <span className="text-gray-500 text-[10px]">Search meetings...</span>
-            <button className="px-3 py-0.5 bg-[#5748FF] text-white rounded text-[10px]">
-              Go
-            </button>
+          <div className="mt-6 bg-gray-100 rounded-xl p-3 flex items-center">
+            <span className="text-gray-500 text-sm">🔍 Search In Meetings</span>
+            <span className="ml-auto text-gray-400 text-xs">⌘ K</span>
           </div>
         </div>
 
-        {/* DATA-DRIVEN DECISIONS */}
-        <div className="bg-white rounded-lg border border-gray-200 p-3 shadow-sm min-h-[180px] md:col-span-2 lg:col-span-1">
-          <h3 className="text-sm font-semibold mb-1">Data-Driven Decisions</h3>
-          <p className="text-gray-600 text-[11px] leading-relaxed">
-            View analytics, trends, and metrics for smarter decisions.
-          </p>
+        {/* AI SUMMARIES — FULL WIDTH */}
+        <div className="bg-white p-6 rounded-2xl border lg:col-span-2 flex flex-col md:flex-row md:justify-between md:items-center">
 
-          <div className="mt-3 flex justify-center">
-            <img
-              src="https://cdn-icons-png.flaticon.com/128/4149/4149678.png"
-              className="w-16"
-              alt="analytics"
-            />
+          {/* Left text */}
+          <div className="max-w-lg">
+            <h3 className="font-semibold text-xl">AI Summaries & Action Items</h3>
+            <p className="text-gray-600 text-md mt-1">
+              Meetix transforms every meeting into transcripts, highlights, and
+              insights you can act on instantly.
+            </p>
           </div>
-        </div>
 
-        {/* MEETPANDA LIVE ASSISTANT */}
-        <div className="bg-white rounded-lg border border-gray-200 p-3 shadow-sm md:col-span-2 min-h-[180px]">
-          <h3 className="text-sm font-semibold mb-1">MeetPanda Live Assistant</h3>
-          <p className="text-gray-600 text-[11px] leading-relaxed">
-            Your AI teammate organizes, transcribes and assists in real-time.
-          </p>
-
-          <div className="mt-3 bg-gray-50 rounded-md p-2 border">
+          {/* Right image preview */}
+          <div className="mt-6 md:mt-0 flex justify-center">
             <img
-              src="https://cdn-icons-png.flaticon.com/128/8142/8142879.png"
-              className="w-full max-w-xs mx-auto"
-              alt="assistant"
+              src="/assets/meetix.svg"
+              className="w-100   rounded-xl border"
+              alt="AI Summary Preview"
             />
           </div>
         </div>

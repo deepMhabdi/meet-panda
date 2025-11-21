@@ -5,7 +5,7 @@ const testimonials = [
     name: "Aarav Mehta",
     role: "Product Manager",
     img: "https://randomuser.me/api/portraits/men/32.jpg",
-    text: "MeetPanda completely changed how I handle meetings. Summaries are accurate, and I save at least 4–5 hours every week.",
+    text: "Meetix completely changed how I handle meetings. Summaries are accurate, and I save at least 4–5 hours every week.",
   },
   {
     name: "Sana Kapoor",
@@ -17,7 +17,7 @@ const testimonials = [
     name: "Ritik Sharma",
     role: "Sales Lead",
     img: "https://randomuser.me/api/portraits/men/12.jpg",
-    text: "Client calls are super easy to track. No more scribbling notes — MeetPanda handles everything.",
+    text: "Client calls are super easy to track. No more scribbling notes — Meetix handles everything.",
   },
   {
     name: "Emily Davis",
@@ -90,7 +90,7 @@ const TestimonialSection = () => {
 
       {/* Subtext */}
       <p className="text-gray-600 text-xs md:text-sm max-w-xl mx-auto leading-relaxed mb-10">
-        Thousands of professionals rely on MeetPanda to make meetings 
+        Thousands of professionals rely on Meetix to make meetings 
         effortless, organized, and productive.
       </p>
 

@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="bg-blue-400 w-6 h-6 rounded-full flex items-center justify-center font-bold text-gray-900">
           ⚙️
         </div>
-        <p className="font-semibold text-gray-800 text-lg">Meet Panda</p>
+        <p className="font-semibold text-gray-800 text-lg">Meetix</p>
       </div>
 
       {/* Center Navigation Links */}

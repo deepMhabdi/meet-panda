@@ -11,12 +11,12 @@ const Professionals = () => {
 
       {/* MAIN HEADING */}
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-3">
-        <span className="text-[#5748FF]">MeetPanda</span>: Built for Every Professional
+        <span className="text-[#5748FF]">Meetix</span>: Built for Every Professional
       </h2>
 
       {/* SUBTEXT */}
       <p className="text-gray-600 text-xs md:text-sm max-w-2xl text-center mb-14 leading-relaxed">
-        From sales teams to educators, MeetPanda adapts to your workflow — helping you save hours,
+        From sales teams to educators, Meetix adapts to your workflow — helping you save hours,
         stay organized, and never miss important meeting details again.
       </p>
 
@@ -31,7 +31,7 @@ const Professionals = () => {
             <div>
               {/* TITLE */}
               <h3 className="text-lg font-bold mb-2">
-                How Sales Teams Can Close Deals Faster With MeetPanda
+                How Sales Teams Can Close Deals Faster With Meetix
               </h3>
 
               {/* TAGS */}
@@ -46,7 +46,7 @@ const Professionals = () => {
 
               {/* DESCRIPTION */}
               <p className="text-gray-600 text-xs md:text-sm leading-relaxed">
-                Sales professionals rely heavily on fast follow-ups and clear notes. MeetPanda 
+                Sales professionals rely heavily on fast follow-ups and clear notes. Meetix 
                 automatically generates detailed meeting summaries, follow-up tasks, and organized 
                 insights so teams can move deals forward faster. No more manual note-taking — just 
                 instant clarity and efficiency.
@@ -84,7 +84,7 @@ const Professionals = () => {
             <div>
               {/* TITLE */}
               <h3 className="text-lg font-bold mb-2">
-                Enhancing Recruitment and Onboarding With MeetPanda
+                Enhancing Recruitment and Onboarding With Meetix
               </h3>
 
               {/* TAGS */}
@@ -99,7 +99,7 @@ const Professionals = () => {
 
               {/* DESCRIPTION */}
               <p className="text-gray-600 text-xs md:text-sm leading-relaxed">
-                HR professionals handle multiple candidate calls and training sessions. MeetPanda 
+                HR professionals handle multiple candidate calls and training sessions. Meetix 
                 simplifies the process with accurate transcripts, onboarding notes, and auto-organized 
                 meeting summaries. Perfect for ensuring consistency and keeping teams aligned.
               </p>

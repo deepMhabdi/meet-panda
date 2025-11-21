@@ -57,7 +57,7 @@ const Landing = () => {
 
         {/* SUBTEXT */}
         <p className="text-gray-600 text-base md:text-md mt-6 max-w-2xl leading-relaxed">
-          MeetPanda joins your meetings, listens, takes notes, and generates
+          Meetix joins your meetings, listens, takes notes, and generates
           flawless AI summaries — saving hours every week so you can focus
           on what truly matters.
         </p>
@@ -65,7 +65,7 @@ const Landing = () => {
         {/* CTA BUTTONS */}
         <div className="flex flex-wrap gap-4 justify-center mt-10">
           <button className="px-6 py-3 rounded-xl text-white font-semibold bg-[#5748FF] hover:bg-[#4339d3] transition shadow-md">
-            Try MeetPanda Free
+            Try Meetix Free
           </button>
 
           <button
