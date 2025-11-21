@@ -34,7 +34,7 @@ const Benefits = () => {
 
       {/* Heading */}
       <h2 className="text-3xl md:text-5xl font-extrabold text-center tracking-tight">
-        One <span className="text-[#5748FF]">Product</span> Many{" "}
+        One <span className="text-[#6366F1]">Product</span> Many{" "}
         <span className="text-black">Benefits</span>
       </h2>
 
@@ -76,12 +76,12 @@ const Benefits = () => {
             {/* Progress bar */}
             <div className="w-full h-8 bg-gray-200 rounded-full overflow-hidden relative">
               <div
-                className="h-full bg-[#5748FF] transition-all duration-300"
+                className="h-full bg-[#6366F1] transition-all duration-300"
                 style={{ width: `${percent}%` }}
               ></div>
             </div>
 
-            <p className="text-[#5748FF] text-4xl font-bold mt-3 text-center tracking-tight">
+            <p className="text-[#6366F1] text-4xl font-bold mt-3 text-center tracking-tight">
               {percent}%
             </p>
           </div>

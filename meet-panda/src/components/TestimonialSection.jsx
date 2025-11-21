@@ -85,7 +85,7 @@ const TestimonialSection = () => {
 
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3">
-        Backed by Our <span className="text-[#5748FF]">Growing Community</span>
+        Backed by Our <span className="text-[#6366F1]">Growing Community</span>
       </h2>
 
       {/* Subtext */}

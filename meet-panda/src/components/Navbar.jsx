@@ -6,7 +6,7 @@ const Navbar = () => {
 
       {/* Left Logo Section */}
       <div className="flex items-center gap-2">
-        <div className="bg-blue-400 w-6 h-6 rounded-full flex items-center justify-center font-bold text-gray-900">
+        <div className="bg-[#6366F1] w-6 h-6 rounded-full flex items-center justify-center font-bold text-gray-900">
           ⚙️
         </div>
         <p className="font-semibold text-gray-800 text-lg">Meetix</p>
@@ -29,17 +29,17 @@ const Navbar = () => {
 
           {/* Dropdown on hover */}
           <ul className="absolute top-8 left-0 bg-white shadow-lg rounded-lg w-44 text-sm text-gray-700 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-            <li className="px-4 py-2 hover:bg-orange-50 cursor-pointer transition">AI Generator</li>
+            <li className="px-4 py-2 hover:bg-orange-50 cursor-pointer transition">AI Meeting</li>
             <li className="px-4 py-2 hover:bg-orange-50 cursor-pointer transition">Features</li>
             <li className="px-4 py-2 hover:bg-orange-50 cursor-pointer transition">About Us</li>
-            <li className="px-4 py-2 hover:bg-orange-50 cursor-pointer transition">Pricing</li>
+            <li className="px-4 py-2 hover:bg-orange-50 cursor-pointer transition">FAQ</li>
           </ul>
         </li>
       </ul>
 
       {/* Right side Button (only UI) */}
       <div className="flex items-center space-x-4">
-        <button className="bg-[#5748FF] hover:bg-[#4339d3] text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
+        <button className="bg-[#6366F1] hover:bg-[#4339d3] text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">
           Get Started
         </button>
       </div>

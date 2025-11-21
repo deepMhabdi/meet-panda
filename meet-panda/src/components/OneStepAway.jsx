@@ -17,7 +17,7 @@ const OneStepAway = () => {
 
           {/* Heading */}
           <h2 className="text-2xl md:text-3xl font-bold leading-snug mb-3">
-            You are <span className="text-[#5748FF]">One step</span> away from <br />
+            You are <span className="text-[#6366F1]">One step</span> away from <br />
             Smarter Meetings
           </h2>
 
@@ -30,15 +30,15 @@ const OneStepAway = () => {
           {/* Bullet Points */}
           <ul className="space-y-2 text-gray-700 text-sm md:text-base mb-6">
             <li className="flex items-start gap-2">
-              <span className="text-[#5748FF] text-lg">✔</span>
+              <span className="text-[#6366F1] text-lg">✔</span>
               AI notes & summaries available instantly.
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#5748FF] text-lg">✔</span>
+              <span className="text-[#6366F1] text-lg">✔</span>
               Save hours every week with smart automation.
             </li>
             <li className="flex items-start gap-2">
-              <span className="text-[#5748FF] text-lg">✔</span>
+              <span className="text-[#6366F1] text-lg">✔</span>
               Works seamlessly with all meeting platforms.
             </li>
           </ul>
@@ -46,7 +46,7 @@ const OneStepAway = () => {
           {/* CTA Button */}
           <button
             onClick={() => navigate("/login")}
-            className="px-6 py-2 bg-[#5748FF] text-white rounded-lg font-semibold hover:bg-[#4638cc] transition text-sm md:text-base"
+            className="px-6 py-2 bg-[#6366F1] text-white rounded-lg font-semibold hover:bg-[#4638cc] transition text-sm md:text-base"
           >
             Log In
           </button>
@@ -57,7 +57,7 @@ const OneStepAway = () => {
           <div className="bg-white border border-gray-200 shadow-md rounded-xl p-4 w-full max-w-sm relative">
 
             {/* Title */}
-            <h3 className="text-sm font-semibold mb-2 text-[#5748FF] flex items-center gap-2">
+            <h3 className="text-sm font-semibold mb-2 text-[#6366F1] flex items-center gap-2">
               🧩 Meeting Preview
             </h3>
 
@@ -71,7 +71,7 @@ const OneStepAway = () => {
                   Daily quick sync with AI notes.
                 </p>
               </div>
-              <button className="px-3 py-1 bg-[#5748FF] text-white text-xs rounded-md">
+              <button className="px-3 py-1 bg-[#6366F1] text-white text-xs rounded-md">
                 Preview
               </button>
             </div>
@@ -86,7 +86,7 @@ const OneStepAway = () => {
                   AI auto-captures follow-ups & tasks.
                 </p>
               </div>
-              <button className="px-3 py-1 bg-[#5748FF] text-white text-xs rounded-md">
+              <button className="px-3 py-1 bg-[#6366F1] text-white text-xs rounded-md">
                 Preview
               </button>
             </div>

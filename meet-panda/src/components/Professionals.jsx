@@ -11,7 +11,7 @@ const Professionals = () => {
 
       {/* MAIN HEADING */}
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-3">
-        <span className="text-[#5748FF]">Meetix</span>: Built for Every Professional
+        <span className="text-[#6366F1]">Meetix</span>: Built for Every Professional
       </h2>
 
       {/* SUBTEXT */}

@@ -22,7 +22,7 @@ const AITeammateSection = () => {
 
       {/* HEADING */}
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 leading-tight">
-        Your <span className="text-[#5748FF]">AI Teammate</span>, Always in the room
+        Your <span className="text-[#6366F1]">AI Teammate</span>, Always in the room
       </h2>
 
       {/* SUBTEXT */}

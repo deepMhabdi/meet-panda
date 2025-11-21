@@ -44,7 +44,7 @@ const FAQ = () => {
       {/* Heading */}
       <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-center">
         Everything you want to know about{" "}
-        <span className="text-[#5748FF]">Meetix</span>
+        <span className="text-[#6366F1]">Meetix</span>
       </h2>
 
       {/* Subtext */}

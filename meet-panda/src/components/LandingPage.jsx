@@ -35,17 +35,17 @@ const Landing = () => {
         {/* MAIN HEADING */}
         <h1 className="text-4xl sm:text-5xl md:text-2xl lg:text-4xl font-bold text-gray-900 leading-tight tracking-tight">
 
-          AI That Manages &nbsp;
-          <span className="inline-block align-middle -rotate-6">
+          AI That Manages 
+          <span className="inline-block align-middle">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/3524/3524388.png"
-              className="inline w-8 h-8 sm:w-10 sm:h-10"
+              src="https://cdn-icons-png.flaticon.com/512/14510/14510257.png"
+              className="mr-2 ml-2 w-8 h-8 sm:w-10 sm:h-10"
             />
           </span>
           Summarizes &nbsp;
           <span className="inline-block align-middle rotate-6">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png"
+              src="https://cdn-icons-png.flaticon.com/512/15047/15047720.png"
               className="inline w-8 h-8 sm:w-10 sm:h-10"
             />
           </span>
@@ -64,7 +64,7 @@ const Landing = () => {
 
         {/* CTA BUTTONS */}
         <div className="flex flex-wrap gap-4 justify-center mt-10">
-          <button className="px-6 py-3 rounded-xl text-white font-semibold bg-[#5748FF] hover:bg-[#4339d3] transition shadow-md">
+          <button className="px-6 py-3 rounded-xl text-white font-semibold bg-[#6366F1] hover:bg-[#4339d3] transition shadow-md">
             Try Meetix Free
           </button>
 
