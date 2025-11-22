@@ -90,12 +90,11 @@ const Landing = () => {
         </div>
       </div>
 
-      {/* DEMO IMAGE */}
       <div className="w-full flex justify-center mt-10 relative z-20">
         <img
-          src="../assets/dashboard.svg"    // <-- replace this with your SVG path
+          src="../assets/dashboard.svg"    
           alt="Worksheet Preview"
-          className="w-[95%] md:w-[80%] max-w-5xl"
+          className="w-[95%] md:w-80%] max-w-7xl"
         />
       </div>
 
