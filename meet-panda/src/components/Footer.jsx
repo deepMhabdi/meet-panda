@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="relative w-full pt-16 pb-10 font-primary 
-      bg-gradient-to-br from-[#eef2ff] via-[#e0e7ff] to-[#f5f3ff]">
+      bg-linear-to-br from-[#eef2ff] via-[#e0e7ff] to-[#f5f3ff]">
 
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12">
 
