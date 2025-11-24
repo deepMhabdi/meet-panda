@@ -1,4 +1,6 @@
 import React from "react";
+import { FileText, LineChart, ListTodo, AlarmClock, Bot } from "lucide-react";
+
 
 const AITeammateSection = () => {
   return (
@@ -32,59 +34,40 @@ const AITeammateSection = () => {
       </p>
 
       {/* ICON BOXES */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 w-full max-w-3xl">
-
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 w-full max-w-2xl">
         {/* Box 1 */}
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 flex flex-col items-center">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/942/942751.png"
-            className="w-10 mb-2"
-            alt="ai notes"
-          />
+          <FileText className="w-7 h-7 mb-2 text-[#6366F1]" />
           <p className="text-xs md:text-sm font-semibold">AI Notes</p>
         </div>
 
         {/* Box 2 */}
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 flex flex-col items-center">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/1828/1828961.png"
-            className="w-10 mb-2"
-            alt="insights"
-          />
+          <LineChart className="w-7 h-7 mb-2 text-[#6366F1]" />
           <p className="text-xs md:text-sm font-semibold">Insights</p>
         </div>
 
         {/* Box 3 */}
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 flex flex-col items-center">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/1828/1828817.png"
-            className="w-10 mb-2"
-            alt="tasks"
-          />
+          <ListTodo className="w-7 h-7 mb-2 text-[#6366F1]" />
           <p className="text-xs md:text-sm font-semibold">Task Items</p>
         </div>
 
         {/* Box 4 */}
         <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 flex flex-col items-center">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/3524/3524388.png"
-            className="w-10 mb-2"
-            alt="reminders"
-          />
+          <AlarmClock className="w-7 h-7 mb-2 text-[#6366F1]" />
           <p className="text-xs md:text-sm font-semibold">Reminders</p>
         </div>
+
       </div>
 
       {/* MIDDLE CARD */}
-      <div className="w-full max-w-xs bg-white rounded-2xl shadow-md border border-gray-200 py-10 px-4 relative">
+      <div className="w-full max-w-xs bg-white rounded-2xl shadow-md border border-gray-200 py-6 px-2 relative">
         <div className="flex flex-col items-center">
 
           {/* Panda Icon */}
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/8162/8162898.png"
-            className="w-14 mb-3"
-            alt="panda assistant"
-          />
+          <Bot className="w-14 h-14 mb-3 text-[#6366F1]" />
+
 
           {/* AI Listening Text */}
           <p className="text-xs md:text-sm text-gray-800 font-medium">
