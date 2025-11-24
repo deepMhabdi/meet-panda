@@ -37,7 +37,7 @@ const FAQ = () => {
       />
 
       {/* Section Badge */}
-      <div className="px-4 py-1 bg-gray-100 border border-gray-300 rounded-full text-xs font-semibold mb-3">
+      <div className="-mt-10 px-4 py-1 bg-gray-100 border border-gray-300 rounded-full text-xs font-semibold mb-3">
         ❓ FAQs
       </div>
 

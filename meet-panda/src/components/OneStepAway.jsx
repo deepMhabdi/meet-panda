@@ -11,7 +11,7 @@ const OneStepAway = () => {
         {/* LEFT SIDE */}
         <div>
           {/* Badge */}
-          <div className="px-3 py-1 mb-3 w-fit bg-gray-100 rounded-full border border-gray-300 text-xs font-medium text-gray-700">
+          <div className="-mt-10 px-3 py-1 mb-3 w-fit bg-gray-100 rounded-full border border-gray-300 text-xs font-medium text-gray-700">
             🚀 Just 1 Step Away
           </div>
 

@@ -16,7 +16,7 @@ const AITeammateSection = () => {
       />
 
       {/* TOP BADGE */}
-      <div className="px-4 py-1 mb-4 bg-white/80 backdrop-blur-sm border border-gray-300 rounded-full text-xs font-medium text-gray-700">
+      <div className="-mt-10 px-4 py-1 mb-4 bg-white/80 backdrop-blur-sm border border-gray-300 rounded-full text-xs font-medium text-gray-700">
         🤝 AI Collaboration
       </div>
 

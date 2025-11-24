@@ -79,7 +79,7 @@ const TestimonialSection = () => {
       />
 
       {/* Badge */}
-      <div className="px-4 py-1 mb-3 bg-gray-100 rounded-full border border-gray-300 text-xs font-medium inline-block">
+      <div className="-mt-20 px-4 py-1 mb-3 bg-gray-100 rounded-full border border-gray-300 text-xs font-medium inline-block">
         🌟 Testimonials
       </div>
 

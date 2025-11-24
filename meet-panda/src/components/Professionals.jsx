@@ -5,7 +5,7 @@ const Professionals = () => {
     <section className="w-full py-20 px-6 flex flex-col items-center font-primary">
 
       {/* TOP BADGE */}
-      <div className="px-4 py-1 mb-4 bg-gray-100 rounded-full border border-gray-300 text-xs font-medium text-gray-700">
+      <div className="-mt-10 px-4 py-1 mb-4 bg-gray-100 rounded-full border border-gray-300 text-xs font-medium text-gray-700">
         💼 For Everyone
       </div>
 
