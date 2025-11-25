@@ -66,7 +66,7 @@ const AITeammateSection = () => {
         <div className="flex flex-col items-center">
 
           {/* Panda Icon */}
-          <Bot className="w-14 h-14 mb-3 text-[#6366F1]" />
+          <Bot className="w-20 h-16 mb-3 text-[#6366F1]" />
 
 
           {/* AI Listening Text */}
